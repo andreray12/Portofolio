@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Pendaftaran</h2>
+    <form>
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+      <label for="password">Kata Sandi:</label>
+      <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required>
+
+      <label for="confirm_password">Konfirmasi Kata Sandi:</label>
+      <input type="password" id="confirm_password" name="confirm_password" placeholder="Konfirmasi kata sandi" required>
+      <label for="password">Jenis Kelamin :</label>
+      <div class="jenis_kelamin">
+        <label><input type="radio" name="gender" value="pria" required> Pria
+        </label>
+      </div>
+      <label><input type="radio" name="gender" value="wanita"> Wanita
+      </label>
+      <button type="submit" target="_blank" required>Daftar</button>
+      <li><a href="index.html">Kembali</a></li>
+    </form>
+  </div>
+</body>
+</html>

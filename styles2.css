@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Wave.png);
+    align-items: flex-start;
+    flex-direction: column;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    width: 100vw; 
+  }
+  .container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit button */
+  button {
+    padding: 10px;
+    background-color: #27374D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #9DB2BF;
+    box-shadow: 0 0 10px #9DB2BF,
+                0 0 10px #9DB2BF,
+                0 0 20px #9DB2BF;
+    color: #333;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  
+    button {
+      font-size: 16px;
+    }
+  }
+li{
+  display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    padding-left: 14%;
+    margin-right: 2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
